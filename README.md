@@ -1,0 +1,2 @@
+# MongoDB $inc Operator Error
+This example demonstrates a common error when using the `$inc` operator in MongoDB to decrement a field's value. If the field doesn't exist, `$inc` will treat it as 0 and decrement from there, but this behavior may not be the desired outcome.
